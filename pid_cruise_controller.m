@@ -1,8 +1,8 @@
 close all;
 clear all;
 
-v_old=20;
-v_des=60;
+v_old=input('enter current velocity of car');
+v_des=input('enter desired velocity of car');
 kp=5;kd=1;ki=6;
 e_old=0;
 k=0.01
